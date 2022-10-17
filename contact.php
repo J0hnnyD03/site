@@ -84,15 +84,17 @@ $this_mail = mail($to,$subject,$message,$headers);
 						<div class="content">
 							<div class="inner">
 								<h1>Hmax TI</h1>
+								<h2 class="major">
                   <?php
                   echo $_SERVER['PHP_SELF'];
                   if( $_POST["nome"] || $_POST["email"] || $_POST["mensagem"] ) {
                     echo "Obrigado ". $_POST['nome']. "<br />";
                     echo $_POST['email']. "<br />";
-                    echo "<h2 class="major">Sua mensagem<br /> ". $_POST['mensagem']. "<br /> foi enviada</h2>";
+                    echo "Sua mensagem<br /> ". $_POST['mensagem']. "<br /> foi enviada";
 
                     exit();
                   }
+									</h2>
                   if($this_mail) echo 'sent!';
                     else echo error_get_last()['message'];;
                   ?>
