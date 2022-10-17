@@ -25,15 +25,17 @@ $message = "
 <title>Solicitação de Contato via Website</title>
 </head>
 <body>
-<p>This email contains HTML Tags!</p>
+<p>Mensagem recebida através do site!</p>
 <table>
 <tr>
-<th>Firstname</th>
-<th>Lastname</th>
+<th>Nome</th>
+<th>Email</th>
+<th>Mensagem</th>
 </tr>
 <tr>
-<td>John</td>
-<td>Doe</td>
+<td>". $_POST['mensagem']. "</td>
+<td>". $_POST['mensagem']. "</td>
+<td>". $_POST['mensagem']. "</td>
 </tr>
 </table>
 </body>
