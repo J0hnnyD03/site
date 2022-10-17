@@ -14,14 +14,10 @@ $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 $headers .= "From: webmaster@hmaxti.com.br" . "\r\n" . "CC: hess.rudinho@gmail.com";
 
-foreach ($_POST as $param_name => $param_val) {
-    echo "Param: $param_name; Value: $param_val<br />\n";
-
-}
-
-if( $_GET["name"] || $_GET["age"] ) {
-  exit();
-}
+// foreach ($_POST as $param_name => $param_val) {
+//     echo "Param: $param_name; Value: $param_val<br />\n";
+//
+// }
 
 $message = "
 <html>
@@ -44,11 +40,7 @@ $message = "
 </html>
 ";
 
-//$this_mail = mail($to,$subject,$message,$headers);
-
-if($this_mail) echo 'sent!';
-  else echo error_get_last()['message'];;
-
+$this_mail = mail($to,$subject,$message,$headers);
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -92,17 +84,17 @@ if($this_mail) echo 'sent!';
 						<div class="content">
 							<div class="inner">
 								<h1>Hmax TI</h1>
-                <h2 class="major">Mensagem recebida!</h2>
-									Obrigado!
                   <?php
                   echo $_SERVER['PHP_SELF'];
-                  if( $_GET["nome"] || $_GET["email"] || $_GET["mensagem"] ) {
-                    echo "Obrigado ". $_GET['nome']. "<br />";
-                    echo $_GET['email']. "<br />";
-                    echo "Sua mensagem<br /> ". $_GET['mensagem']. "<br /> foi enviada";
+                  if( $_POST["nome"] || $_POST["email"] || $_POST["mensagem"] ) {
+                    echo "Obrigado ". $_POST['nome']. "<br />";
+                    echo $_POST['email']. "<br />";
+                    echo "<h2 class="major">Sua mensagem<br /> ". $_POST['mensagem']. "<br /> foi enviada</h2>";
 
                     exit();
                   }
+                  if($this_mail) echo 'sent!';
+                    else echo error_get_last()['message'];;
                   ?>
                 </div>
 						</div>
