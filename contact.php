@@ -78,7 +78,6 @@ $this_mail = mail($to,$subject,$message,$headers);
 				<!-- Header -->
 					<header id="header">
 						<div class="image">
-							<!-- <span class="icon fa-gem"></span> -->
 						<img class="logo image" src="images/logo_circleless.svg">
 						</div>
 						<div class="content">
@@ -86,7 +85,7 @@ $this_mail = mail($to,$subject,$message,$headers);
 								<h1>Hmax TI</h1>
 								<p>
                   <?php
-                  echo $_SERVER['PHP_SELF'];
+                  // echo $_SERVER['PHP_SELF'];
                   if( $_POST["nome"] || $_POST["email"] || $_POST["mensagem"] ) {
                     echo "Obrigado ". $_POST['nome']. "<br />";
                     echo $_POST['email']. "<br />";
@@ -101,10 +100,10 @@ $this_mail = mail($to,$subject,$message,$headers);
 						</div>
 						<nav>
 							<ul>
-								<li><a href="#intro">Intro</a></li>
-								<li><a href="#work">Work</a></li>
-								<li><a href="#about">About</a></li>
-								<li><a href="#contact">Contato</a></li>
+								<li><a href="/#intro">Intro</a></li>
+								<li><a href="/#work">Work</a></li>
+								<li><a href="/#about">About</a></li>
+								<li><a href="/#contact">Contato</a></li>
 								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
 						</nav>
