@@ -39,6 +39,9 @@ $message = "
 </html>
 ";
 
-mail($to,$subject,$message,$headers);
+$this_mail = mail($to,$subject,$message,$headers);
 
+if (!$this_mail) {
+    echo error_get_last()['message'];
+}
 ?>
