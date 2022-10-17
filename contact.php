@@ -89,11 +89,11 @@ $this_mail = mail($to,$subject,$message,$headers);
                   if( $_POST["nome"] || $_POST["email"] || $_POST["mensagem"] ) {
                     echo "Obrigado ". $_POST['nome']. "<br />";
                     echo $_POST['email']. "<br />";
-                    echo "Sua mensagem<br /> ". $_POST['mensagem']. "<br /> foi enviada";
+                    echo "Sua mensagem<br /> ". $_POST['mensagem']. "<br />  ";
 
                   }
-									if($this_mail) echo 'sent!';
-                    else echo error_get_last()['message'];;
+									if($this_mail) echo 'foi enviada!';
+                    else header("Refresh:0; url=/");
                   ?>
 								</p>
 								</div>
