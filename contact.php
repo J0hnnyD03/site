@@ -39,7 +39,7 @@ $message = "
 </html>
 ";
 
-$this_mail = mail($to,$subject,$message,$headers);
+//$this_mail = mail($to,$subject,$message,$headers);
 
 if($this_mail) echo 'sent!';
   else echo error_get_last()['message'];;
