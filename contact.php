@@ -94,11 +94,11 @@ $this_mail = mail($to,$subject,$message,$headers);
 
                     exit();
                   }
-									</h2>
-                  if($this_mail) echo 'sent!';
+									if($this_mail) echo 'sent!';
                     else echo error_get_last()['message'];;
                   ?>
-                </div>
+									</h2>
+								</div>
 						</div>
 						<nav>
 							<ul>
