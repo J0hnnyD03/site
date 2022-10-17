@@ -92,7 +92,7 @@ $this_mail = mail($to,$subject,$message,$headers);
                     echo $_POST['email']. "<br />";
                     echo "Sua mensagem<br /> ". $_POST['mensagem']. "<br /> foi enviada";
 
-                    exit();
+                    //exit();
                   }
 									if($this_mail) echo 'sent!';
                     else echo error_get_last()['message'];;
