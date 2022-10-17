@@ -33,8 +33,8 @@ $message = "
 <th>Mensagem</th>
 </tr>
 <tr>
-<td>". $_POST['mensagem']. "</td>
-<td>". $_POST['mensagem']. "</td>
+<td>". $_POST['Nome']. "</td>
+<td>". $_POST['Email']. "</td>
 <td>". $_POST['mensagem']. "</td>
 </tr>
 </table>
