@@ -20,7 +20,7 @@ $headers .= "From: webmaster@hmaxti.com.br" . "\r\n" . "CC: hess.rudinho@gmail.c
 // }
 
 $message = "
-<html>
+<html lang="pt-br">
 <head>
 <title>Solicitação de Contato via Website</title>
 </head>
@@ -50,7 +50,7 @@ $this_mail = mail($to,$subject,$message,$headers);
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
-<html>
+<html lang="pt-br">
 	<head>
 		<title>Hmax TI</title>
 		<meta charset="utf-8" />
@@ -103,8 +103,8 @@ $this_mail = mail($to,$subject,$message,$headers);
 						<nav>
 							<ul>
 								<li><a href="/#intro">Intro</a></li>
-								<li><a href="/#work">Work</a></li>
-								<li><a href="/#about">About</a></li>
+								<li><a href="/#work">Serviços</a></li>
+								<li><a href="/#about">Sobre</a></li>
 								<li><a href="/#contact">Contato</a></li>
 								<!-- <li><a href="#elements">Elements</a></li> -->
 							</ul>
