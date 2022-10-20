@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Peignot';
-    src: url('Peignot-Light-Italic.eot');
+    src: url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.eot');
     src: local('Peignot-Light Italic'), local('Peignot-Light-Italic'),
         url('Peignot-Light-Italic.eot?#iefix') format('embedded-opentype'),
         url('Peignot-Light-Italic.woff2') format('woff2'),
@@ -17,7 +17,7 @@
 
 @font-face {
     font-family: 'Peignot';
-    src: url('Peignot-Light-Bold.eot');
+    src: url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.eot');
     src: local('Peignot-Light Bold'), local('Peignot-Light-Bold'),
         url('Peignot-Light-Bold.eot?#iefix') format('embedded-opentype'),
         url('Peignot-Light-Bold.woff2') format('woff2'),
