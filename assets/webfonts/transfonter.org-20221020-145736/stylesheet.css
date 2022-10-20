@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Peignot';
-    src: url('Peignot-Light-Italic.eot');
+    src: url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.eot');
     src: local('Peignot-Light Italic'), local('Peignot-Light-Italic'),
-        url('Peignot-Light-Italic.eot?#iefix') format('embedded-opentype'),
-        url('Peignot-Light-Italic.woff2') format('woff2'),
-        url('Peignot-Light-Italic.woff') format('woff'),
-        url('Peignot-Light-Italic.ttf') format('truetype'),
-        url('Peignot-Light-Italic.svg#Peignot-Light-Italic') format('svg');
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.eot?#iefix') format('embedded-opentype'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.woff2') format('woff2'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.woff') format('woff'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.ttf') format('truetype'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Italic.svg#Peignot-Light-Italic') format('svg');
     font-weight: 100;
     font-style: italic;
     font-display: swap;
@@ -14,15 +14,14 @@
 
 @font-face {
     font-family: 'Peignot';
-    src: url('Peignot-Light-Bold.eot');
+    src: url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.eot');
     src: local('Peignot-Light Bold'), local('Peignot-Light-Bold'),
-        url('Peignot-Light-Bold.eot?#iefix') format('embedded-opentype'),
-        url('Peignot-Light-Bold.woff2') format('woff2'),
-        url('Peignot-Light-Bold.woff') format('woff'),
-        url('Peignot-Light-Bold.ttf') format('truetype'),
-        url('Peignot-Light-Bold.svg#Peignot-Light-Bold') format('svg');
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.eot?#iefix') format('embedded-opentype'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.woff2') format('woff2'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.woff') format('woff'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.ttf') format('truetype'),
+        url('https://hmaxti.com.br/assets/webfonts/Peignot-Light-Bold.svg#Peignot-Light-Bold') format('svg');
     font-weight: 100;
     font-style: normal;
     font-display: swap;
 }
-
