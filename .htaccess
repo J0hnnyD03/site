@@ -1,0 +1,3 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^site/(.*)$ http://hmaxti.com.br/$1 [R=301,L]
