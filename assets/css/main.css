@@ -168,7 +168,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Peignot", sans-serif;
+		font-family: "Source Sans Pro", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -225,7 +225,11 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
-  .your-style {
+  .peignot {
+      font-family: 'Peignot';
+      font-style: normal;
+  }
+  peignot {
       font-family: 'Peignot';
       font-style: normal;
   }
