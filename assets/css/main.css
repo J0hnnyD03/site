@@ -1,6 +1,13 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+@font-face {
+	src: url(webfonts/peignot1.ttf);
+	font-family: 'Peignot light';
+
+}
+
+
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
@@ -198,6 +205,12 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+		h1.peignot {
+			font-size: 2.25rem;
+			line-height: 1.3;
+			letter-spacing: 0.5rem;
+			font-family: 'Peignot light';
+		}
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
