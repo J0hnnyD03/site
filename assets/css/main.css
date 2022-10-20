@@ -2,16 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 @font-face {
-	src: url(../webfonts/peignot2.ttf);
-	font-family: 'Peignot-Light';
-}
-
-@font-face {
 	src: url(../webfonts/peignot1.ttf);
 	font-family: 'Peignot-Light';
 }
-
-
 /*
 	Dimension by HTML5 UP
 	html5up.net | @ajlkn
