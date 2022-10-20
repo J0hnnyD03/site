@@ -12,8 +12,7 @@ $to = "atendimento@hmaxti.com.br";
 $subject = "[Contato] Website";
 $headers = "MIME-Version: 1.0" . "\r\n";
 $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-$headers .= "From: webmaster@hmaxti.com.br" . "\r\n";
-// $headers .= "CC: hess.rudinho@gmail.com";
+$headers .= "From: webmaster@hmaxti.com.br" . "\r\n" . "CC: hess.rudinho@gmail.com";
 
 // foreach ($_POST as $param_name => $param_val) {
 //     echo "Param: $param_name; Value: $param_val<br />\n";
