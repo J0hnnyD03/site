@@ -50,6 +50,6 @@
     ],
     "theme_color": "#ffffff",
     "background_color": "#ffffff",
-    "start_url": "https://jglpi.hmaxti.com.br/",
+    "start_url": "https://glpi.hmaxti.com.br/",
     "display": "standalone"
 }
